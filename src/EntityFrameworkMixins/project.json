@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EntityFrameworkMixins Class Library",
+  "authors": [ "Matthew Abbott" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta8",
+    "EntityFramework.Relational": "7.0.0-beta8"
+  },
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Collections.Concurrent": "4.0.11-beta-23409",
+        "System.Reflection": "4.1.0-beta-23409",
+        "System.Reflection.Extensions": "4.0.1-beta-23409"
+      }
+    }
+  }
+}

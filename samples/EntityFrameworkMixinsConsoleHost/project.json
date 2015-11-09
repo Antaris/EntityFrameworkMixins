@@ -1,0 +1,32 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "EntityFrameworkMixinsConsoleHost Console Application",
+  "authors": [ "abbottm" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "EntityFramework.SqlServer": "7.0.0-beta8",
+    "Microsoft.Framework.DependencyInjection": "1.0.0-beta8",
+    "EntityFrameworkMixins": ""
+  },
+
+  "commands": {
+    "EntityFrameworkMixinsConsoleHost": "EntityFrameworkMixinsConsoleHost"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Console": "4.0.0-beta-23409",
+        "System.Collections": "4.0.11-beta-23409",
+        "System.Diagnostics.Debug": "4.0.11-beta-23409",
+        "System.Runtime": "4.0.21-beta-23409",
+        "System.Runtime.Extensions": "4.0.11-beta-23409",
+        "System.Threading.Tasks": "4.0.11-beta-23409"
+      }
+    }
+  }
+}
